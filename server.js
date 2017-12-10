@@ -35,7 +35,7 @@ app.get('/get_params', function (req, res) {
     console.log(p1.name + " " + p1.ID + "\n" + p2.name + " " + p2.ID);
 });
 
-var server = app.listen(3000, function () {
+var server = app.listen(1000, function () {
     var host = server.address().address;
     var port = server.address().port;
 
